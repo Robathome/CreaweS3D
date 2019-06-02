@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<profile name="Creawesome_CR-10s" version="2019-06-02 11:37:24" app="S3D-Software 4.1.1">
+  <baseProfile>Default (modified)</baseProfile>
+  <printMaterial>PLA</printMaterial>
+  <printQuality>Fast</printQuality>
+  <printExtruders></printExtruders>
+  <extruder name="Primary Extruder">
+    <toolheadNumber>0</toolheadNumber>
+    <diameter>0.4</diameter>
+    <autoWidth>0</autoWidth>
+    <width>0.5</width>
+    <extrusionMultiplier>0.95</extrusionMultiplier>
+    <useRetract>1</useRetract>
+    <retractionDistance>4</retractionDistance>
+    <extraRestartDistance>-0.05</extraRestartDistance>
+    <retractionZLift>0.2</retractionZLift>
+    <retractionSpeed>12000</retractionSpeed>
+    <useCoasting>0</useCoasting>
+    <coastingDistance>0.2</coastingDistance>
+    <useWipe>0</useWipe>
+    <wipeDistance>2</wipeDistance>
+  </extruder>
+  <primaryExtruder>0</primaryExtruder>
+  <layerHeight>0.2</layerHeight>
+  <topSolidLayers>3</topSolidLayers>
+  <bottomSolidLayers>3</bottomSolidLayers>
+  <perimeterOutlines>3</perimeterOutlines>
+  <printPerimetersInsideOut>1</printPerimetersInsideOut>
+  <startPointOption>2</startPointOption>
+  <startPointOriginX>0</startPointOriginX>
+  <startPointOriginY>0</startPointOriginY>
+  <sequentialIslands>0</sequentialIslands>
+  <spiralVaseMode>0</spiralVaseMode>
+  <firstLayerHeightPercentage>75</firstLayerHeightPercentage>
+  <firstLayerWidthPercentage>125</firstLayerWidthPercentage>
+  <firstLayerUnderspeed>0.4</firstLayerUnderspeed>
+  <useRaft>0</useRaft>
+  <raftExtruder>0</raftExtruder>
+  <raftTopLayers>3</raftTopLayers>
+  <raftBaseLayers>2</raftBaseLayers>
+  <raftOffset>2</raftOffset>
+  <raftSeparationDistance>0.2</raftSeparationDistance>
+  <raftTopInfill>100</raftTopInfill>
+  <aboveRaftSpeedMultiplier>0.35</aboveRaftSpeedMultiplier>
+  <useSkirt>1</useSkirt>
+  <skirtExtruder>0</skirtExtruder>
+  <skirtLayers>1</skirtLayers>
+  <skirtOutlines>4</skirtOutlines>
+  <skirtOffset>10</skirtOffset>
+  <usePrimePillar>0</usePrimePillar>
+  <primePillarExtruder>999</primePillarExtruder>
+  <primePillarWidth>12</primePillarWidth>
+  <primePillarLocation>7</primePillarLocation>
+  <primePillarSpeedMultiplier>1</primePillarSpeedMultiplier>
+  <useOozeShield>0</useOozeShield>
+  <oozeShieldExtruder>999</oozeShieldExtruder>
+  <oozeShieldOffset>2</oozeShieldOffset>
+  <oozeShieldOutlines>1</oozeShieldOutlines>
+  <oozeShieldSidewallShape>1</oozeShieldSidewallShape>
+  <oozeShieldSidewallAngle>30</oozeShieldSidewallAngle>
+  <oozeShieldSpeedMultiplier>1</oozeShieldSpeedMultiplier>
+  <infillExtruder>0</infillExtruder>
+  <internalInfillPattern>Triangular</internalInfillPattern>
+  <externalInfillPattern>Rectilinear</externalInfillPattern>
+  <infillPercentage>15</infillPercentage>
+  <outlineOverlapPercentage>30</outlineOverlapPercentage>
+  <infillExtrusionWidthPercentage>100</infillExtrusionWidthPercentage>
+  <minInfillLength>5</minInfillLength>
+  <infillLayerInterval>1</infillLayerInterval>
+  <internalInfillAngles>0,60,-60</internalInfillAngles>
+  <overlapInternalInfillAngles>1</overlapInternalInfillAngles>
+  <externalInfillAngles>45,-45</externalInfillAngles>
+  <generateSupport>1</generateSupport>
+  <supportExtruder>0</supportExtruder>
+  <supportInfillPercentage>25</supportInfillPercentage>
+  <supportExtraInflation>0</supportExtraInflation>
+  <supportBaseLayers>2</supportBaseLayers>
+  <denseSupportExtruder>0</denseSupportExtruder>
+  <denseSupportLayers>3</denseSupportLayers>
+  <denseSupportInfillPercentage>100</denseSupportInfillPercentage>
+  <supportLayerInterval>1</supportLayerInterval>
+  <supportHorizontalPartOffset>1</supportHorizontalPartOffset>
+  <supportUpperSeparationLayers>1</supportUpperSeparationLayers>
+  <supportLowerSeparationLayers>1</supportLowerSeparationLayers>
+  <supportType>1</supportType>
+  <supportGridSpacing>1</supportGridSpacing>
+  <maxOverhangAngle>65</maxOverhangAngle>
+  <supportAngles>0</supportAngles>
+  <temperatureController name="Primary Extruder">
+    <temperatureNumber>0</temperatureNumber>
+    <isHeatedBed>0</isHeatedBed>
+    <stabilizeAtStartup>0</stabilizeAtStartup>
+    <setpoint layer="1" temperature="220"/>
+    <setpoint layer="2" temperature="215"/>
+  </temperatureController>
+  <temperatureController name="Bed Heater">
+    <temperatureNumber>0</temperatureNumber>
+    <isHeatedBed>1</isHeatedBed>
+    <stabilizeAtStartup>0</stabilizeAtStartup>
+    <setpoint layer="1" temperature="45"/>
+  </temperatureController>
+  <fanSpeed>
+    <setpoint layer="1" speed="0"/>
+    <setpoint layer="2" speed="70"/>
+  </fanSpeed>
+  <blipFanToFullPower>0</blipFanToFullPower>
+  <adjustSpeedForCooling>1</adjustSpeedForCooling>
+  <minSpeedLayerTime>5</minSpeedLayerTime>
+  <minCoolingSpeedSlowdown>75</minCoolingSpeedSlowdown>
+  <increaseFanForCooling>1</increaseFanForCooling>
+  <minFanLayerTime>10</minFanLayerTime>
+  <maxCoolingFanSpeed>100</maxCoolingFanSpeed>
+  <increaseFanForBridging>1</increaseFanForBridging>
+  <bridgingFanSpeed>100</bridgingFanSpeed>
+  <use5D>1</use5D>
+  <relativeEdistances>1</relativeEdistances>
+  <allowEaxisZeroing>1</allowEaxisZeroing>
+  <independentExtruderAxes>0</independentExtruderAxes>
+  <includeM10123>0</includeM10123>
+  <stickySupport>1</stickySupport>
+  <applyToolheadOffsets>0</applyToolheadOffsets>
+  <gcodeXoffset>0</gcodeXoffset>
+  <gcodeYoffset>0</gcodeYoffset>
+  <gcodeZoffset>0</gcodeZoffset>
+  <overrideMachineDefinition>1</overrideMachineDefinition>
+  <machineTypeOverride>0</machineTypeOverride>
+  <strokeXoverride>300</strokeXoverride>
+  <strokeYoverride>220</strokeYoverride>
+  <strokeZoverride>300</strokeZoverride>
+  <originOffsetXoverride>0</originOffsetXoverride>
+  <originOffsetYoverride>0</originOffsetYoverride>
+  <originOffsetZoverride>0</originOffsetZoverride>
+  <homeXdirOverride>-1</homeXdirOverride>
+  <homeYdirOverride>-1</homeYdirOverride>
+  <homeZdirOverride>-1</homeZdirOverride>
+  <flipXoverride>1</flipXoverride>
+  <flipYoverride>-1</flipYoverride>
+  <flipZoverride>1</flipZoverride>
+  <toolheadOffsets>0,0|0,0|0,0|0,0|0,0|0,0</toolheadOffsets>
+  <overrideFirmwareConfiguration>0</overrideFirmwareConfiguration>
+  <firmwareTypeOverride>RepRap (Marlin/Repetier/Sprinter)</firmwareTypeOverride>
+  <GPXconfigOverride>r2</GPXconfigOverride>
+  <baudRateOverride>250000</baudRateOverride>
+  <overridePrinterModels>0</overridePrinterModels>
+  <printerModelsOverride></printerModelsOverride>
+  <startingGcode>&quot;M201 X500.00 Y500.00 Z100.00 E5000.00 ;Setup machine max acceleration ,M203 X500.00 Y500.00 Z10.00 E50.00 ;Setup machine max feedrate ,M204 P500.00 R1000.00 T500.00 ;Setup Print/Retract/Travel acceleration ,M205 X8.00 Y8.00 Z0.40 E5.00 ;Setup Jerk ,M220 S100 ;Reset Feedrate ,M221 S100 ;Reset Flowrate ,G28 ;Home ,G92 E0 ;Reset Extruder ,G1 Z2.0 F3000 ;Move Z Axis up ,G1 X10.1 Y20 Z0.28 F5000.0 ;Move to start position ,G1 X10.1 Y200.0 Z0.28 F1500.0 E15 ;Draw the first line ,G1 X10.4 Y200.0 Z0.28 F5000.0 ;Move to side a little ,G1 X10.4 Y20 Z0.28 F1500.0 E30 ;Draw the second line ,G92 E0 ;Reset Extruder ,G1 Z2.0 F3000 ;Move Z Axis up,</startingGcode>
+  <layerChangeGcode></layerChangeGcode>
+  <retractionGcode></retractionGcode>
+  <toolChangeGcode></toolChangeGcode>
+  <endingGcode>G91 ;Relative positioning ,G1 E-2 F2700 ;Retract a bit ,G1 E-2 Z0.2 F2400 ;Retract and raise ,Z G1 X5 Y5 F3000 ;Wipe out ,G1 Z10 ;Raise Z more ,G90 ;Absolute positionning ,G1 X0 Y{machine_depth} ;Present print ,M106 S0 ;Turn-off fan ,M104 S0 ;Turn-off hotend ,M140 S0 ;Turn-off bed ,M84 X Y E ;Disable all steppers but Z &quot;,</endingGcode>
+  <exportFileFormat>gcode</exportFileFormat>
+  <celebration>0</celebration>
+  <celebrationSong>Star Wars</celebrationSong>
+  <postProcessing></postProcessing>
+  <defaultSpeed>3000</defaultSpeed>
+  <outlineUnderspeed>1</outlineUnderspeed>
+  <solidInfillUnderspeed>0.5</solidInfillUnderspeed>
+  <supportUnderspeed>0.5</supportUnderspeed>
+  <rapidXYspeed>3000</rapidXYspeed>
+  <rapidZspeed>1500</rapidZspeed>
+  <minBridgingArea>10</minBridgingArea>
+  <bridgingExtraInflation>1</bridgingExtraInflation>
+  <bridgingExtrusionMultiplier>0.98</bridgingExtrusionMultiplier>
+  <bridgingSpeedMultiplier>0.4</bridgingSpeedMultiplier>
+  <useFixedBridgingAngle>0</useFixedBridgingAngle>
+  <fixedBridgingAngle>0</fixedBridgingAngle>
+  <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
+  <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
+  <filamentPricesPerKg>20|46|46|46|46|46</filamentPricesPerKg>
+  <filamentDensities>1.25|1.25|1.25|1.25|1.25|1.25</filamentDensities>
+  <useMinPrintHeight>0</useMinPrintHeight>
+  <minPrintHeight>15</minPrintHeight>
+  <useMaxPrintHeight>0</useMaxPrintHeight>
+  <maxPrintHeight>36</maxPrintHeight>
+  <useDiaphragm>0</useDiaphragm>
+  <diaphragmLayerInterval>20</diaphragmLayerInterval>
+  <robustSlicing>1</robustSlicing>
+  <mergeAllIntoSolid>0</mergeAllIntoSolid>
+  <onlyRetractWhenCrossingOutline>0</onlyRetractWhenCrossingOutline>
+  <retractBetweenLayers>0</retractBetweenLayers>
+  <useRetractionMinTravel>1</useRetractionMinTravel>
+  <retractionMinTravel>1.5</retractionMinTravel>
+  <retractWhileWiping>1</retractWhileWiping>
+  <onlyWipeOutlines>1</onlyWipeOutlines>
+  <avoidCrossingOutline>0</avoidCrossingOutline>
+  <maxMovementDetourFactor>3</maxMovementDetourFactor>
+  <toolChangeRetractionDistance>12</toolChangeRetractionDistance>
+  <toolChangeExtraRestartDistance>-0.5</toolChangeExtraRestartDistance>
+  <toolChangeRetractionSpeed>600</toolChangeRetractionSpeed>
+  <externalThinWallType>0</externalThinWallType>
+  <internalThinWallType>2</internalThinWallType>
+  <thinWallAllowedOverlapPercentage>35</thinWallAllowedOverlapPercentage>
+  <singleExtrusionMinLength>1</singleExtrusionMinLength>
+  <singleExtrusionMinPrintingWidthPercentage>50</singleExtrusionMinPrintingWidthPercentage>
+  <singleExtrusionMaxPrintingWidthPercentage>200</singleExtrusionMaxPrintingWidthPercentage>
+  <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
+  <horizontalSizeCompensation>0</horizontalSizeCompensation>  
+  <autoConfigureMaterial name="ABS">
+  <retractionDistance>4</retractionDistance>
+    <globalExtruderTemperature>240</globalExtruderTemperature>
+    <globalBedTemperature>80</globalBedTemperature>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+    </fanSpeed>
+  </autoConfigureMaterial>        
+  <autoConfigureMaterial name="Nylon">
+  <retractionDistance>8</retractionDistance>
+    <globalExtruderTemperature>245</globalExtruderTemperature>
+    <globalBedTemperature>60</globalBedTemperature>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="0"/>
+    </fanSpeed>
+  </autoConfigureMaterial>      
+    <autoConfigureMaterial name="PETG">
+  <retractionDistance>5</retractionDistance>
+    <globalExtruderTemperature>240</globalExtruderTemperature>
+    <globalBedTemperature>80</globalBedTemperature>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="0"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="PLA">
+  <retractionDistance>4</retractionDistance>
+    <temperatureController name="Primary Extruder">
+      <temperatureNumber>0</temperatureNumber>
+      <isHeatedBed>0</isHeatedBed>
+      <stabilizeAtStartup>1</stabilizeAtStartup>
+      <setpoint layer="1" temperature="200"/>
+    </temperatureController>
+    <globalBedTemperature>50</globalBedTemperature>
+    <globalExtrusionMultiplier>0.95</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="70"/>
+    </fanSpeed>
+  </autoConfigureMaterial>      
+  <autoConfigureMaterial name="PVA">
+  <retractionDistance>4</retractionDistance>
+    <globalExtruderTemperature>195</globalExtruderTemperature>
+    <globalBedTemperature>80</globalBedTemperature>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+  </autoConfigureMaterial>  
+    <autoConfigureMaterial name="TPU">
+  <retractionDistance>4</retractionDistance>
+    <globalExtruderTemperature>228</globalExtruderTemperature>
+    <globalBedTemperature>0</globalBedTemperature>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="0"/>
+    </fanSpeed>
+  </autoConfigureMaterial>  
+  <autoConfigureQuality name="Fast">
+    <layerHeight>0.2</layerHeight>
+    <topSolidLayers>3</topSolidLayers>
+    <bottomSolidLayers>3</bottomSolidLayers>
+    <skirtLayers>1</skirtLayers>
+    <infillPercentage>15</infillPercentage>
+    <supportInfillPercentage>25</supportInfillPercentage>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="Medium">
+    <layerHeight>0.2</layerHeight>
+    <topSolidLayers>3</topSolidLayers>
+    <bottomSolidLayers>3</bottomSolidLayers>
+    <skirtLayers>1</skirtLayers>
+    <infillPercentage>20</infillPercentage>
+    <supportInfillPercentage>30</supportInfillPercentage>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="High">
+    <layerHeight>0.2</layerHeight>
+    <topSolidLayers>4</topSolidLayers>
+    <bottomSolidLayers>3</bottomSolidLayers>
+    <skirtLayers>1</skirtLayers>
+    <infillPercentage>15</infillPercentage>
+    <supportInfillPercentage>35</supportInfillPercentage>
+  </autoConfigureQuality>
+</profile>
