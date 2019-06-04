@@ -89,14 +89,14 @@
   <temperatureController name="Primary Extruder">
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>0</isHeatedBed>
-    <stabilizeAtStartup>0</stabilizeAtStartup>
+    <stabilizeAtStartup>1</stabilizeAtStartup>
     <setpoint layer="1" temperature="220"/>
     <setpoint layer="2" temperature="215"/>
   </temperatureController>
   <temperatureController name="Bed Heater">
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>1</isHeatedBed>
-    <stabilizeAtStartup>0</stabilizeAtStartup>
+    <stabilizeAtStartup>1</stabilizeAtStartup>
     <setpoint layer="1" temperature="45"/>
   </temperatureController>
   <fanSpeed>
