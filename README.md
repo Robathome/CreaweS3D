@@ -1,7 +1,7 @@
 # CreaweS3D
 > Creawesome profiles that are S3D-compatible
 
-The goal of this project is to create Simplify3D-compatible "Factory Files" (.fff) that include the settings from the popular "Creawesome mod" for Cura 4.0+
+The goal of this project is to create Simplify3D-compatible "Factory Files" (.fff) that include the settings from the popular "Creawsome mod" for Cura 4.0+ (https://github.com/trouch/CreawsomeMod)
 
 ## Installation
 
